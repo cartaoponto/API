@@ -8,6 +8,7 @@ public class CartaopontoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CartaopontoApplication.class, args);
+		System.out.println("Teste inicio da API.");
 	}
 
 }
