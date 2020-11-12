@@ -7,4 +7,5 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 public interface UsuarioRepository extends JpaRepository<UsuarioEntity, Long> {
+	public List<UsuarioEntity> findById(int id);
 }

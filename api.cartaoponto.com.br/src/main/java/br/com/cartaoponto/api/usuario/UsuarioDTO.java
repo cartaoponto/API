@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class UsuarioDTO {
-	private Long id;
+	private int id;
 	private String nomeUsuario;
 	private String senhaUsuario;
 	private int grupoUsuario;
@@ -24,7 +24,7 @@ public class UsuarioDTO {
 	}
 	
 
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 	public String getNomeUsuario() {

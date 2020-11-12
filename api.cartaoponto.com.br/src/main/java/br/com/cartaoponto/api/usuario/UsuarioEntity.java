@@ -2,6 +2,7 @@ package br.com.cartaoponto.api.usuario;
 
 import java.time.LocalDateTime;
 
+import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,7 +16,7 @@ public class UsuarioEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ID_USUARIO")
-	private Long id;
+	private int id;
 	
 	@Column(name = "NOME_USUARIO")
 	private String nomeUsuario;
@@ -35,11 +36,11 @@ public class UsuarioEntity {
 	@Column(name = "DH_UPDATE")
 	private LocalDateTime dhUpdate;
 
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
