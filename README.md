@@ -2,6 +2,7 @@
 <h1>Cartão Ponto - API</h1>
 <pre>
 Rodar o script abaixo para criar as tabelas e popular o banco:
+
 CREATE TABLE cartaoponto.usuario(
 	ID_USUARIO INT NOT NULL AUTO_INCREMENT PRIMARY KEY
     , NOME_USUARIO VARCHAR(200) NOT NULL
